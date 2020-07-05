@@ -1,0 +1,81 @@
+
+
+/* .center{
+  
+  display: block;
+  font-family: cursive;
+  text-align: center;
+}
+
+.center:hover{
+  color: violet;
+} */
+
+*{
+	margin:0;
+	padding:1px;
+}
+
+body {
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+	padding: 30px 20px;
+	image-resolution: 100%;
+}
+
+h1 {
+	color: white;
+	display: block;
+	text-align: center;
+	font-family: cursive;
+}
+
+h1:hover {
+	color: magenta;
+}
+
+#submit:hover {
+	color:white;
+	background-color: #282828;
+	border:2px solid #282828;
+	cursor:pointer;
+}
+
+h2{
+  text-align: center;
+  color: whitesmoke;
+  font-family: cursive;
+}
+
+h2:hover{
+  color: red;
+}
+
+img {
+	width: 220px;
+	height: 180px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-radius: 20px 20px;
+}
+
+a:hover {
+  background-color:whitesmoke;
+  color: magenta;
+}
+
+a {
+  color: magenta;
+	text-decoration: none;
+}
+
+p{
+  font-family: sans-serif;
+  color: white;
+}
+
+p:hover{
+  color: black;
+  background-color: whitesmoke;
+}
